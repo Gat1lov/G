@@ -1,0 +1,12 @@
+@import url(./__logo/header__logo.css);
+@import url(./__tabs/header__tabs.css);
+@import url(./__tab/header__tab.css);
+
+.header{
+    margin: 15px 0 0;
+    padding-bottom: 15px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    border-bottom: 1px solid white;
+}
