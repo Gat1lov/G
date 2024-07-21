@@ -1,0 +1,21 @@
+.products__description{
+    display: inline-block;
+    cursor: pointer;
+    margin: 10px auto 0;
+    text-align: left;
+    max-width: 300px;
+    max-height: 60px;
+    color: white;
+    font-family: 'InterLight', sans-serif;
+    transition: transform .5s ease;
+}
+
+.products__description:hover{
+    transform: scale(1.1);
+    animation: blink 2s infinite;
+}
+
+@keyframes blink {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0.3; }
+}

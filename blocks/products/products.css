@@ -1,0 +1,12 @@
+@import url(./__title/products__title.css);
+@import url(./__name/products__name.css);
+@import url(./__list/products__list.css);
+@import url(./__photo/products__photo.css);
+@import url(./__description/products__description.css);
+@import url(./__element/products__element.css);
+
+.products{
+    justify-content: center;
+    margin: 90px 0 0;
+    border-bottom: 1px solid white;
+}

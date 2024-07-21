@@ -1,0 +1,5 @@
+.about-me__main-info{
+    margin: 20px 0;
+    display: flex;
+    justify-content: space-between;
+}
