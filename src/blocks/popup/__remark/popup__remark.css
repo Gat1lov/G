@@ -1,0 +1,11 @@
+.popup__remark {
+    margin: 0;
+    text-align: right;
+    font-family: 'InterThinItal', sans-serif;
+    font-size: 10px;
+    color: gray;
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+    max-width: 300px;
+}

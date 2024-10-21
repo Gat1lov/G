@@ -1,0 +1,10 @@
+.about-me__scrolling-button{
+    position: relative;
+    display: block;
+    width: 100%;
+    border: none;
+    background-color: white;
+    overflow: hidden;
+    cursor: pointer;
+    text-align: left;
+}

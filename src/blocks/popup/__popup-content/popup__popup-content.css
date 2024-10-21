@@ -1,0 +1,17 @@
+.popup__popup-content {
+    background-color: #0f0f0f;
+    width: 35%;
+    max-height: 80%;
+    overflow-x: hidden;
+    overflow-y: auto; 
+    padding-left: 50px;
+    padding-right: 20px;
+    padding-bottom: 50px;
+    border-radius: 5px;
+    position: relative;
+
+    &::-webkit-scrollbar {
+        width: 3px; 
+    };
+
+}

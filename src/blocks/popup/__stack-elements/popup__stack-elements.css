@@ -1,0 +1,6 @@
+.popup__stack-elements{
+    margin: 0 0 0 20px;
+    gap: 10px;
+    display: flex;
+    justify-content: space-between;
+}

@@ -1,9 +1,0 @@
-.projects__images-box {
-    margin: 0;
-}
-
-@media screen and (max-width: 1670px) {
-    .projects__images-box {
-        text-align: center;
-    }
-}

@@ -1,0 +1,13 @@
+@import url(./__logo/footer__logo.css);
+@import url(./__quote/footer__quote.css);
+@import url(./__quote-text/footer__quote-text.css);
+@import url(./__quote-author/footer__quote-author.css);
+@import url(./__button/footer__button.css);
+
+.footer{
+    margin: 200px 0 0 0;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    overflow: hidden; 
+}

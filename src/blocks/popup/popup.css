@@ -1,0 +1,54 @@
+@import url(../popup/__social-btn/popup__social-btn.css);
+@import url(../popup/__popup-content/popup__popup-content.css);
+@import url(../popup/__close-btn/popup__close-btn.css);
+@import url(../popup/__title/popup__title.css);
+@import url(../popup/__remark/popup__remark.css);
+@import url(../popup/_product-content/popup_product-content.css);
+@import url(../popup/_product-title/popup_product-title.css);
+@import url(../popup/__photo/popup__photo.css);
+@import url(../popup/__description/popup__description.css);
+@import url(../popup/__stack/popup__stack.css);
+@import url(../popup/__stack-elements/popup__stack-elements.css);
+@import url(../popup/__stack-element/popup__stack-element.css);
+@import url(../popup/__language-circle/popup__language-circle.css);
+@import url(../popup/_close-btn-products/popup_close-btn-products.css);
+@import url(../popup/_product-true/popup_product-true.css);
+@import url(../popup/__git-link/popup__git-link.css);
+@import url(../popup/__stack-link-container/popup__stack-link-container.css);
+@import url(../popup/__product-done/popup__product-done.css);
+@import url(../popup/_resume-content/popup_resume-content.css);
+@import url(../popup/__resume-avatar/popup__resume-avatar.css);
+@import url(../popup/__resume-main/popup__resume-main.css);
+@import url(../popup/__resume-text/popup__resume-text.css);
+@import url(../popup/__resume-text-element/popup__resume-text-element.css);
+@import url(../popup/__resume-description-title/popup__resume-description-title.css);
+@import url(../popup/__resume-description-subtitle/popup__resume-description-subtitle.css);
+@import url(../popup/__resume-description-box/popup__resume-description-box.css);
+@import url(../popup/__resume-education/popup__resume-education.css);
+@import url(../popup/__resume-education-title/popup__resume-education-title.css);
+@import url(../popup/__resume-education-school/popup__resume-education-school.css);
+@import url(../popup/__resume-education-direction/popup__resume-education-direction.css);
+@import url(../popup/__overlay/popup__overlay.css);
+@import url(../popup/_something/popup_something.css);
+@import url(../popup/__input/popup__input.css);
+
+.popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(5px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.3s ease;
+}
+
+.popup.visible {
+    opacity: 1;
+    pointer-events: auto;
+}

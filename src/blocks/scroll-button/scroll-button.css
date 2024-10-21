@@ -1,0 +1,23 @@
+@import url(./scroll-button__text/scroll-button__text.css);
+
+.scroll-button {
+    position: fixed;
+    top: -50px;
+    min-width: 1080px;
+    font-family: 'Gotic', sans-serif;
+    font-size: 25px;
+    padding: 10px 20px;
+    background-color: #ffffff;
+    color: #000000;
+    border: none;
+    cursor: pointer;
+    z-index: 1000;
+    opacity: 0;
+    transition: all 0.4s ease-in-out; 
+  }
+  
+  .scroll-button.show {
+    top: 0px;
+    opacity: 1;
+  }
+  

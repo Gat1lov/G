@@ -1,0 +1,9 @@
+.footer__logo{
+    position: absolute;
+    max-width: 1080px;
+    bottom: -90%; 
+    font-family: 'InterBlack', sans-serif;
+    white-space: nowrap;
+    color: white;
+    font-size: 80px;
+}

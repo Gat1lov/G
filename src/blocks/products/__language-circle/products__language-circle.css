@@ -1,0 +1,13 @@
+.products__language-circle{
+    display: inline-block;
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    margin-right: 5px;
+    opacity: .7;
+    transition: opacity 0.3s ease;
+}
+
+.products__stack-item:hover .products__language-circle{
+    opacity: 1;
+}

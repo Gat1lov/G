@@ -1,0 +1,13 @@
+.products__description{
+    margin: 50px 0 0 0;
+    max-height: 100px; 
+    overflow: hidden; 
+    color: white;
+    font-family: 'InterLight', sans-serif;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 4; 
+    text-overflow: ellipsis; 
+    line-height: 1.5;
+}
+

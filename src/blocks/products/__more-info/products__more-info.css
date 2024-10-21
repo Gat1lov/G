@@ -1,0 +1,15 @@
+.products__more-info {
+    margin: 20px 0 0;
+    padding: 5px 50px;    
+    cursor: pointer;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid white;
+    color: white;
+    transition: background 0.3s, color 0.3s;
+}
+
+.products__more-info:hover {
+    background: white;
+    color: black;
+}

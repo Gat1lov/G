@@ -1,0 +1,9 @@
+.header__tab-text{
+    color: white;
+    text-transform: uppercase;
+    font-family: 'InterThin', sans-serif;
+    text-decoration: none;
+    font-size: 25px;
+    cursor: pointer;
+    text-decoration: none;
+}
