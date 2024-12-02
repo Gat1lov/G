@@ -1,0 +1,1358 @@
+@font-face {
+    font-family: 'Gotic';
+    src: url(c86cdc71c0fffdcb2436.woff2) format('woff2');
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'InterThin';
+    src: url(122ebdce2dd3f1257a84.woff2) format('woff2'),
+    url(2d09736c88cd382e5628.woff) format('woff');
+    font-weight: 100
+}
+
+@font-face {
+    font-family: 'InterThinItal';
+    src: url(d508e6eecd6ce429c5fb.woff2) format('woff2'),
+    url(2e9280712a9b6cb10f84.woff) format('woff');
+    font-weight: 100
+}
+
+@font-face {
+    font-family: 'InterLight';
+    src: url(85119f18c783bf6b0a9a.woff2) format('woff2'),
+    url(ed9a7ce1dedab5d9333b.woff) format('woff');
+    font-weight: 300
+}
+
+@font-face {
+    font-family: 'InterRegular';
+    src: url(bd097ceff83f90802a12.woff2) format('woff2'),
+    url(0d6f7c99e635f1fec4c9.woff) format('woff');
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'InterSemiBold';
+    src: url(90f5c90fdecd8895f496.woff2) format('woff2'),
+    url(7f6c3678e245486167d9.woff) format('woff');
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: 'InterBlack';
+    src: url(ed17840f58cc8c61635a.woff2) format('woff2'),
+    url(87c06fd2ac7128c9a81d.woff) format('woff');
+    font-weight: 800;
+}
+/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
+
+/* Document
+   ========================================================================== */
+
+/**
+ * 1. Correct the line height in all browsers.
+ * 2. Prevent adjustments of font size after orientation changes in iOS.
+ */
+
+html {
+  line-height: 1.15; /* 1 */
+  -webkit-text-size-adjust: 100%; /* 2 */
+}
+
+/* Sections
+   ========================================================================== */
+
+/**
+ * Remove the margin in all browsers.
+ */
+
+body {
+  margin: 0;
+}
+
+/**
+ * Render the `main` element consistently in IE.
+ */
+
+main {
+  display: block;
+}
+
+/**
+ * Correct the font size and margin on `h1` elements within `section` and
+ * `article` contexts in Chrome, Firefox, and Safari.
+ */
+
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+/* Grouping content
+   ========================================================================== */
+
+/**
+ * 1. Add the correct box sizing in Firefox.
+ * 2. Show the overflow in Edge and IE.
+ */
+
+hr {
+  box-sizing: content-box; /* 1 */
+  height: 0; /* 1 */
+  overflow: visible; /* 2 */
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+
+pre {
+  font-family: monospace, monospace; /* 1 */
+  font-size: 1em; /* 2 */
+}
+
+/* Text-level semantics
+   ========================================================================== */
+
+/**
+ * Remove the gray background on active links in IE 10.
+ */
+
+a {
+  background-color: transparent;
+}
+
+/**
+ * 1. Remove the bottom border in Chrome 57-
+ * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
+ */
+
+abbr[title] {
+  border-bottom: none; /* 1 */
+  text-decoration: underline; /* 2 */
+  text-decoration: underline dotted; /* 2 */
+}
+
+/**
+ * Add the correct font weight in Chrome, Edge, and Safari.
+ */
+
+b,
+strong {
+  font-weight: bolder;
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+
+code,
+kbd,
+samp {
+  font-family: monospace, monospace; /* 1 */
+  font-size: 1em; /* 2 */
+}
+
+/**
+ * Add the correct font size in all browsers.
+ */
+
+small {
+  font-size: 80%;
+}
+
+/**
+ * Prevent `sub` and `sup` elements from affecting the line height in
+ * all browsers.
+ */
+
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+sup {
+  top: -0.5em;
+}
+
+/* Embedded content
+   ========================================================================== */
+
+/**
+ * Remove the border on images inside links in IE 10.
+ */
+
+img {
+  border-style: none;
+}
+
+/* Forms
+   ========================================================================== */
+
+/**
+ * 1. Change the font styles in all browsers.
+ * 2. Remove the margin in Firefox and Safari.
+ */
+
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: inherit; /* 1 */
+  font-size: 100%; /* 1 */
+  line-height: 1.15; /* 1 */
+  margin: 0; /* 2 */
+}
+
+/**
+ * Show the overflow in IE.
+ * 1. Show the overflow in Edge.
+ */
+
+button,
+input { /* 1 */
+  overflow: visible;
+}
+
+/**
+ * Remove the inheritance of text transform in Edge, Firefox, and IE.
+ * 1. Remove the inheritance of text transform in Firefox.
+ */
+
+button,
+select { /* 1 */
+  text-transform: none;
+}
+
+/**
+ * Correct the inability to style clickable types in iOS and Safari.
+ */
+
+button,
+[type="button"],
+[type="reset"],
+[type="submit"] {
+  -webkit-appearance: button;
+}
+
+/**
+ * Remove the inner border and padding in Firefox.
+ */
+
+button::-moz-focus-inner,
+[type="button"]::-moz-focus-inner,
+[type="reset"]::-moz-focus-inner,
+[type="submit"]::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
+
+/**
+ * Restore the focus styles unset by the previous rule.
+ */
+
+button:-moz-focusring,
+[type="button"]:-moz-focusring,
+[type="reset"]:-moz-focusring,
+[type="submit"]:-moz-focusring {
+  outline: 1px dotted ButtonText;
+}
+
+/**
+ * Correct the padding in Firefox.
+ */
+
+fieldset {
+  padding: 0.35em 0.75em 0.625em;
+}
+
+/**
+ * 1. Correct the text wrapping in Edge and IE.
+ * 2. Correct the color inheritance from `fieldset` elements in IE.
+ * 3. Remove the padding so developers are not caught out when they zero out
+ *    `fieldset` elements in all browsers.
+ */
+
+legend {
+  box-sizing: border-box; /* 1 */
+  color: inherit; /* 2 */
+  display: table; /* 1 */
+  max-width: 100%; /* 1 */
+  padding: 0; /* 3 */
+  white-space: normal; /* 1 */
+}
+
+/**
+ * Add the correct vertical alignment in Chrome, Firefox, and Opera.
+ */
+
+progress {
+  vertical-align: baseline;
+}
+
+/**
+ * Remove the default vertical scrollbar in IE 10+.
+ */
+
+textarea {
+  overflow: auto;
+}
+
+/**
+ * 1. Add the correct box sizing in IE 10.
+ * 2. Remove the padding in IE 10.
+ */
+
+[type="checkbox"],
+[type="radio"] {
+  box-sizing: border-box; /* 1 */
+  padding: 0; /* 2 */
+}
+
+/**
+ * Correct the cursor style of increment and decrement buttons in Chrome.
+ */
+
+[type="number"]::-webkit-inner-spin-button,
+[type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+/**
+ * 1. Correct the odd appearance in Chrome and Safari.
+ * 2. Correct the outline style in Safari.
+ */
+
+[type="search"] {
+  -webkit-appearance: textfield; /* 1 */
+  outline-offset: -2px; /* 2 */
+}
+
+/**
+ * Remove the inner padding in Chrome and Safari on macOS.
+ */
+
+[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/**
+ * 1. Correct the inability to style clickable types in iOS and Safari.
+ * 2. Change font properties to `inherit` in Safari.
+ */
+
+::-webkit-file-upload-button {
+  -webkit-appearance: button; /* 1 */
+  font: inherit; /* 2 */
+}
+
+/* Interactive
+   ========================================================================== */
+
+/*
+ * Add the correct display in Edge, IE 10+, and Firefox.
+ */
+
+details {
+  display: block;
+}
+
+/*
+ * Add the correct display in all browsers.
+ */
+
+summary {
+  display: list-item;
+}
+
+/* Misc
+   ========================================================================== */
+
+/**
+ * Add the correct display in IE 10+.
+ */
+
+template {
+  display: none;
+}
+
+/**
+ * Add the correct display in IE 10.
+ */
+
+[hidden] {
+  display: none;
+}
+
+.about-me__title{
+    font-family: 'InterBlack', sans-serif;
+    font-size: 24px;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+@media (max-width: 864px) {
+    .about-me__title{
+        font-size: 20px;
+    }
+}
+.about-me__main-info{
+    margin: 20px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+@media (max-width: 768px) {
+    .about-me__main-info{
+        display: block;
+    }
+}
+.about-me__stack-element{
+    margin: 0 10px 0 0;
+    font-family: 'InterRegular', sans-serif;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.about-me__stack-element:last-of-type{
+    margin: 0;
+}
+
+@media (max-width: 864px) {
+    .about-me__stack-element{
+        font-size: 14px;
+    }
+}
+.about-me__name{
+    margin: 0;
+    font-family: 'InterSemiBold', sans-serif;
+    font-size: 20px;
+}
+
+@media (max-width: 864px) {
+    .about-me__name{
+        font-size: 16px;
+    }
+}
+.about-me__work{
+    margin: 15px 0 0;
+    font-family: 'InterRegular', sans-serif;
+    font-size: 18px;
+}
+
+@media (max-width: 864px) {
+    .about-me__work{
+        font-size: 14px;
+    }
+}
+.about-me__location{
+    margin: 15px 0 0;
+    font-family: 'InterRegular', sans-serif;
+    font-size: 18px;
+}
+
+@media (max-width: 864px) {
+    .about-me__location{
+        font-size: 14px;
+    }
+}
+.about-me__stacks {
+    margin: 0;
+    font-family: 'InterSemiBold', sans-serif;
+    font-size: 20px;
+}
+
+@media (max-width: 864px) {
+    .about-me__stacks {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 768px) {
+    .about-me__stacks {
+        border-top: 1px solid white;
+        padding-top: 20px;
+        margin: 20px 0 0;
+    }
+}
+.about-me__stack-elements{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    margin: 15px 0 0;
+}
+
+@media (max-width: 486px) {
+    .about-me__stack-elements {
+        display: grid;
+        row-gap: 10px;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+.about-me__scrolling-button{
+    position: relative;
+    display: block;
+    width: 100%;
+    border: none;
+    background-color: white;
+    overflow: hidden;
+    cursor: pointer;
+    text-align: left;
+}
+.about-me__scrolling-text{
+    font-family: 'InterBlack', sans-serif;
+    font-size: 30px;
+    text-transform: uppercase;
+    word-spacing: 6px;
+    color: #0F0F0F;
+    white-space: nowrap;
+}
+.about-me__scrolling-wrapper{
+    display: flex;
+    position: relative;
+    white-space: nowrap;
+    animation: scroll 10s linear infinite; 
+}
+
+@keyframes scroll {
+    0% {
+        transform: translateX(100%);
+    }
+    100% {
+        transform: translateX(-150%); 
+    }
+}
+
+.about-me{
+    margin: 20px 0 0 0;
+    color: white;
+    border-bottom: 1px solid white;
+}
+
+@media (max-width: 1080px) {
+    .about-me{
+        margin: 20px 20px 0;
+    }
+}
+.header__logo {
+    margin: 0;
+    color: white;
+    font-family: 'Gotic', sans-serif;
+    font-size: 25px;
+}
+.header__tabs{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    list-style-type: none;
+}
+.header__tab {
+    display: flex;
+    transition: transform .3s ease-in-out;
+    align-items: center; /* Вертикальное выравнивание текста */
+    justify-content: center; /* Горизонтальное выравнивание текста */
+}
+
+.header__tab:hover {
+    transform: scale(1.1);
+}
+
+.header__tab:nth-of-type(2) {
+    margin: 0 0 0 30px;
+}
+.header__tab-text{
+    color: white;
+    text-transform: uppercase;
+    font-family: 'InterThin', sans-serif;
+    text-decoration: none;
+    font-size: 25px;
+    cursor: pointer;
+    text-decoration: none;
+    text-align: center; /* Центрируем текст */
+    display: block; /* Делаем ссылку блочным элементом */
+}
+
+@media (max-width: 864px) {
+    .header__tab-text{
+        font-size: 18px;
+    }
+}
+.header{
+    margin: 15px 0 0;
+    padding-bottom: 15px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    border-bottom: 1px solid white;
+}
+
+@media (max-width: 1080px) {
+    .header{
+        margin: 15px 20px 0;
+    }
+}
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-shadow: none;
+  overflow-x: hidden;
+}
+
+.page {
+  margin: 0 auto;
+  background-color: #0f0f0f;
+  max-width: 1080px;
+  cursor: default;
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+}
+
+.page.page--loaded {
+  opacity: 1;
+}
+
+*::-webkit-scrollbar {
+  height: 5px;
+  width: 5px;
+}
+
+*::-webkit-scrollbar-track {
+  border-radius: 0px;
+  background-color: transparent;
+}
+
+*::-webkit-scrollbar-track:hover {
+  background-color: transparent;
+}
+
+*::-webkit-scrollbar-track:active {
+  background-color: transparent;
+}
+
+*::-webkit-scrollbar-thumb {
+  border-radius: 0px;
+  background-color: #FFFFFF;
+}
+
+*::-webkit-scrollbar-thumb:hover {
+  background-color: #FFFFFF;
+}
+
+*::-webkit-scrollbar-thumb:active {
+  background-color: #FFFFFF;
+}
+.products__title{
+    margin: 0;
+    font-size: 24px;
+    color: white;
+    font-family: 'InterBlack',sans-serif;
+    text-transform: uppercase;
+}
+
+@media (max-width: 864px) {
+    .products__title{
+        font-size: 20px;
+    }
+}
+.products__name{
+    color: white;
+    margin: 0;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-family: 'InterSemiBold', sans-serif;
+}
+@media (max-width: 864px) {
+    .products__name{
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 600px) {
+    .products__name {
+        margin: 20px 0 0;
+    }
+}
+.products__list{
+    margin: 20px 0;
+    padding: 0;
+    list-style-type: none;
+}
+.products__photo{
+    margin: 0;
+    width: 300px;
+    max-height: 300px;
+}
+
+@media (max-width: 600px) {
+    .products__photo {
+        width: 100%;
+    }
+}
+.products__text-block{
+    display: block;
+    margin: 0 0 0 20px;
+}
+
+@media (max-width: 600px) {
+    .products__text-block {
+        margin: 0;
+    }
+}
+.products__description{
+    margin: 50px 0 0 0;
+    max-height: 100px; 
+    overflow: hidden; 
+    color: white;
+    font-family: 'InterLight', sans-serif;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 4; 
+    text-overflow: ellipsis; 
+    line-height: 1.5;
+}
+
+@media (max-width: 864px) {
+    .products__description{
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 600px) {
+    .products__description {
+        margin: 15px 0 0;
+    }
+}
+
+.products__element {
+    margin: 0 0 20px 0;
+    padding-bottom: 8px;
+    display: flex;
+    position: relative;
+    border-bottom: 1px solid white;
+}
+
+.products__element:last-of-type {
+    border: none;
+    padding: 0;
+}
+
+@media (max-width: 600px) {
+    .products__element {
+        display: block;
+    }
+}
+.products__stack{
+    margin: 0;
+    position: absolute;
+    right: 0;
+    bottom: 10px;
+}
+.products__stack-item{
+    margin: 0;
+    margin-right: 20px;
+    font-size: 10px;
+    color: white;
+    opacity: 0.7;
+    font-family: 'InterSemiBold', sans-serif;
+    transition: opacity 0.3s ease;
+}
+
+.products__stack-item:last-of-type{
+    margin: 0;
+}
+
+.products__stack-item:hover{
+    opacity: 1;
+}
+
+.products__language-circle{
+    display: inline-block;
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    margin-right: 5px;
+    opacity: .7;
+    transition: opacity 0.3s ease;
+}
+
+.products__stack-item:hover .products__language-circle{
+    opacity: 1;
+}
+.products__more-info {
+    margin: 20px 0 0;
+    padding: 5px 50px;    
+    cursor: pointer;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid white;
+    color: white;
+    transition: background 0.3s, color 0.3s;
+}
+
+.products__more-info:hover {
+    background: white;
+    color: black;
+}
+
+@media (max-width: 600px) {
+    .products__more-info {
+        border: none;
+    }
+}
+
+.products{
+    margin: 45px 0 0;
+    border-bottom: 1px solid white;
+}
+
+@media (max-width: 1080px) {
+    .products{
+        margin: 45px 20px 0;
+    }
+}
+.footer__content{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+@media (max-width: 486px) {
+    .footer__content {
+        display: block;
+    }
+}
+.footer__logo{
+    position: absolute;
+    max-width: 1080px;
+    bottom: -90%; 
+    font-family: 'InterBlack', sans-serif;
+    white-space: nowrap;
+    color: white;
+    font-size: 80px;
+    overflow: hidden;
+}
+
+@media (max-width: 864px) {
+    .footer__logo{
+        bottom: -68%;
+        font-size: 60px;
+    }
+}
+
+@media (max-width: 600px) {
+    .footer__logo{
+        position: relative;
+        margin: 20px 0 -30px;
+        font-size: 60px;
+    }
+}
+.footer__quote {
+    margin: 0 0 65px;
+    width: 300px;
+}
+
+@media (max-width: 486px) {
+    .footer__quote {
+        width: 100%;
+        margin: 0 0 0;
+    }
+}
+.footer__quote-text{
+    margin: 0;
+    font-family: 'InterThinItal', sans-serif;
+    font-size: 24px;
+    color: grey;
+}
+
+@media (max-width: 600px) {
+    .footer__quote-text {
+        font-size: 20px;
+    }
+}
+.footer__quote-author{
+    margin: 0;
+    font-family: 'InterLight', sans-serif;
+    color: grey;
+}
+
+@media (max-width: 600px) {
+    .footer__quote-author {
+        font-size: 15px;
+    }
+}
+.footer__button {
+    font-family: 'InterRegular', sans-serif;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    background: transparent;
+    border: none; 
+    cursor: pointer;
+}
+
+.footer__button span {
+    font-size: 16px;
+    color: grey;
+    background: linear-gradient(90deg, white, grey, white);
+    background-size: 200% 100%; 
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    animation: gradient-flow 3s linear infinite;
+}
+
+@keyframes gradient-flow {
+    0% {
+        background-position: 200% 0;
+    }
+    100% {
+        background-position: -200% 0;
+    }
+}
+
+@media (max-width: 600px) {
+    .footer__button span{
+        font-size: 10px;
+    }
+}
+
+@media (max-width: 486px) {
+    .footer__button {
+        margin: 10px 0 0;
+    }
+}
+.footer{
+    margin: 200px 0 0 0;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    overflow: hidden; 
+}
+
+@media (max-width: 1080px) {
+    .footer{
+        margin: 200px 20px 0;
+    }
+}
+
+@media (max-width: 600px) {
+    .footer{
+        display: block;
+    }
+}
+.scroll-button__text{
+    animation: blink 2s infinite;
+}
+
+@keyframes blink {
+    0%, 100% {
+        opacity: 1;
+    }
+    50% {
+        opacity: .3;
+    }
+}
+.scroll-button {
+    position: fixed;
+    top: -50px;
+    left: 0; /* Фон начинается с левого края экрана */
+    width: 100%; /* Фон на всю ширину экрана */
+    background-color: #ffffff; /* Фон на всю ширину экрана */
+    font-family: 'Gotic', sans-serif;
+    font-size: 25px;
+    padding: 10px 20px;
+    color: #000000;
+    border: none;
+    cursor: pointer;
+    z-index: 1000;
+    opacity: 0;
+    transition: all 0.4s ease-in-out;
+}
+
+.scroll-button.show {
+    top: 0px;
+    opacity: 1;
+}
+.popup__social-btn{
+    display: block;
+    max-width: 300px;
+    font-family: 'InterReg',sans-serif;
+    font-size: 30px;
+    margin: 10px 0;
+    color: white;
+    text-decoration: none;
+    border-bottom: 1px white solid;
+}
+
+.popup__social-btn:first-of-type{
+    margin-top: 30px;
+}
+
+@media (max-width: 775px) {
+    .popup__social-btn {
+        font-size: 20px;
+        margin: 10px auto 0;
+        text-align: center;
+    }
+}
+.popup_product-content{
+    padding: 0;
+}
+.popup__popup-content {
+    background-color: #0f0f0f;
+    width: 70%;
+    max-height: 90%;
+    overflow-x: hidden;
+    overflow-y: auto; 
+    border-radius: 5px;
+    position: relative;
+
+    &::-webkit-scrollbar {
+        width: 3px;
+        z-index: -1;
+    };
+
+}
+.popup__close-btn{
+    font-size: 50px;
+    line-height: 30px;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    cursor: pointer;
+    color: white;
+    z-index: 1000; 
+}
+.popup__title{
+    margin: 50px 0 0;
+    font-family: 'InterBlack',sans-serif;
+    font-size: 46px;
+    text-transform: uppercase;
+    color: white;
+}
+
+@media (max-width: 775px) {
+    .popup__title {
+    font-size: 34px;
+    margin: 30px auto 0;
+    text-align: center;
+    }
+}
+.popup__remark {
+    margin: 0;
+    text-align: right;
+    font-family: 'InterThinItal', sans-serif;
+    font-size: 10px;
+    color: gray;
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+    max-width: 300px;
+}
+
+@media (max-width: 775px) {
+    .popup__remark {
+        position:static;
+        margin: 30px auto 0;
+    }
+}
+.popup_social-content{
+    max-width: 50%;
+    padding-left: 50px;
+    padding-right: 20px;
+    padding-bottom: 50px;
+}
+
+@media (max-width: 775px) {
+    .popup_social-content {
+    padding: 10px;
+    max-width: 80%;
+    }
+}
+.popup_product-title{
+    margin: 20px 0 0 20px;
+    line-height: 35px;
+}
+
+@media (max-width: 775px) {
+    .popup_product-title{
+        text-align: start;
+    }
+}
+.popup__photo{
+    margin: 10px 0 0;
+    width: 100%;
+    max-height: 400px;
+}
+.popup__description {
+    margin: 10px 20px 0 20px;
+    padding-bottom: 5px;
+    color: white;
+    font-family: 'InterRegular', sans-serif;
+    font-size: 18px;
+    border-bottom: 1px solid white;
+}
+
+@media (max-width: 775px) {
+    .popup__description  {
+        font-size: 14px;
+
+    }
+}
+.popup__stack{
+    font-family: 'InterSemiBold', sans-serif;
+    color: white;
+    margin: 20px 20px 0;
+    font-size: 23px;
+}
+
+@media (max-width: 775px) {
+    .popup__stack  {
+        font-size: 16px;
+        margin: 10px 20px 0;
+    }
+}
+.popup__stack-elements{
+    margin: 0 0 0 20px;
+    gap: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.popup__stack-element{
+    margin: 0;
+    color: white;
+    font-size: 15px;
+    font-family: 'InterSemiBold', sans-serif;
+}
+@media (max-width: 775px) {
+    .popup__stack-element{
+        font-size: 10px;
+    }
+}
+.popup__language-circle{
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin-right: 5px;
+    opacity: 1;
+}
+.popup_close-btn-products{
+    top: 20px;
+    right: 20px;
+}
+.popup_product-true{
+    background-color: white;
+}
+.popup_product-false{
+    background-color: grey;
+}
+.popup__git-link{
+    cursor: pointer;
+    font-family: 'InterSemiBold', sans-serif;
+    font-size: 15px;
+    margin: 0 20px 0 0;
+    padding: 0;
+    border: none;
+    color: white;
+    background-color: transparent;
+}
+.popup__stack-link-container{
+    margin: 15px 0 0 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+
+@media (max-width: 775px) {
+    .popup__stack-link-container{
+        margin: 10px 0 0 0;
+    }
+}
+.popup__product-done{
+    margin: 20px 0 0;
+    font-family: 'InterRegular', sans-serif;
+    font-size: 20px;
+    padding: 10px;
+    text-align: center;
+}
+.popup_resume-content{
+    width: 50%;
+}
+.popup__resume-avatar{
+    width: 200px;
+    height: 200px;
+}
+.popup__resume-main{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0 0;
+    padding-bottom: 10px;
+    border-bottom: 1px white solid;
+}
+.popup__resume-text{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    row-gap: 16px;
+}
+.popup__resume-text-element{
+    font-family: 'InterRegular', sans-serif;
+    margin: 0;
+    color: white;
+    font-size: 20px;
+}
+.popup__resume-description-title{
+    margin: 0;
+    color: white;
+    font-family: 'InterSemiBold', sans-serif;
+    font-size: 16px;
+}
+.popup__resume-description-subtitle{
+    margin: 10px 0 0;
+    font-size: 14px;
+    font-family: 'InterLight', sans-serif;
+    color: grey;
+}
+.popup__resume-description-box{
+    margin: 20px 0 0;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+.popup__resume-education{
+    margin: 20px 0 0;
+    padding-bottom: 10px;
+    border-bottom: 1px solid white;
+}
+.popup__resume-education-title{
+    margin: 0;
+    font-size: 20px;
+    color: white;
+    font-family: 'InterSemiBold';
+}
+.popup__resume-education-school{
+    margin: 10px 0 0;
+    color: gray;
+    font-family: 'InterLight', sans-serif;
+}
+.popup__resume-education-direction{
+    margin: 5px 0 0;
+    color: gray;
+    font-family: 'InterLight', sans-serif;
+}
+.popup__overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.popup__overlay::before,
+.popup__overlay::after {
+    content: '';
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 200%;
+    height: 200%;
+    background: radial-gradient(circle, rgba(255, 255, 255, 0.1) 10%, rgba(0, 0, 0, 0) 60%);
+    opacity: 0.4;
+    animation: smoke 8s linear infinite;
+}
+
+.popup__overlay::after {
+    animation-duration: 10s;
+    opacity: 0.3;
+    animation-direction: reverse;
+}
+
+@keyframes smoke {
+    0% {
+        transform: translate(0, 0) rotate(0deg);
+    }
+    25% {
+        transform: translate(20px, -20px) rotate(45deg);
+    }
+    50% {
+        transform: translate(-20px, -40px) rotate(90deg);
+    }
+    75% {
+        transform: translate(30px, -10px) rotate(135deg);
+    }
+    100% {
+        transform: translate(0, 0) rotate(180deg);
+    }
+}
+.popup_something{
+    position: relative;
+    background: white;
+    padding: 2rem;
+    text-align: center;
+    z-index: 1001;
+    border-radius: 10px;
+    max-width: 400px;
+    width: 100%;
+    animation: fadeIn 0.5s ease-in-out;
+    background: rgba(255, 255, 255, 0.9);
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+.popup__input{
+    width: 100%;
+    padding: 0.5rem;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(5px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.3s ease;
+}
+
+.popup.visible {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+
+

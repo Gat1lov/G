@@ -1,6 +1,0 @@
-.popup__resume-description-box{
-    margin: 20px 0 0;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 20px;
-}
