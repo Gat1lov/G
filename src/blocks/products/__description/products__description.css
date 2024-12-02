@@ -11,3 +11,14 @@
     line-height: 1.5;
 }
 
+@media (max-width: 864px) {
+    .products__description{
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 600px) {
+    .products__description {
+        margin: 15px 0 0;
+    }
+}

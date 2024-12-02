@@ -3,3 +3,9 @@
     font-family: 'InterRegular', sans-serif;
     font-size: 18px;
 }
+
+@media (max-width: 864px) {
+    .about-me__work{
+        font-size: 14px;
+    }
+}

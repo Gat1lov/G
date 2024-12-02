@@ -1,4 +1,4 @@
-.products__element{
+.products__element {
     margin: 0 0 20px 0;
     padding-bottom: 8px;
     display: flex;
@@ -6,7 +6,13 @@
     border-bottom: 1px solid white;
 }
 
-.products__element:last-of-type{
+.products__element:last-of-type {
     border: none;
     padding: 0;
+}
+
+@media (max-width: 600px) {
+    .products__element {
+        display: block;
+    }
 }

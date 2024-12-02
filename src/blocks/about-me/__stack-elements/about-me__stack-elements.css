@@ -1,7 +1,14 @@
 .about-me__stack-elements{
     position: relative;
     display: flex;
-    min-width: 450px;
     justify-content: space-between;
     margin: 15px 0 0;
+}
+
+@media (max-width: 486px) {
+    .about-me__stack-elements {
+        display: grid;
+        row-gap: 10px;
+        grid-template-columns: repeat(2, 1fr);
+    }
 }

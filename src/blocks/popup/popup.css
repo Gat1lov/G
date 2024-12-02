@@ -1,9 +1,10 @@
 @import url(../popup/__social-btn/popup__social-btn.css);
+@import url(../popup/_product-content/popup_product-content.css);
 @import url(../popup/__popup-content/popup__popup-content.css);
 @import url(../popup/__close-btn/popup__close-btn.css);
 @import url(../popup/__title/popup__title.css);
 @import url(../popup/__remark/popup__remark.css);
-@import url(../popup/_product-content/popup_product-content.css);
+@import url(../popup/_social-content/popup_social-content.css);
 @import url(../popup/_product-title/popup_product-title.css);
 @import url(../popup/__photo/popup__photo.css);
 @import url(../popup/__description/popup__description.css);
@@ -13,6 +14,7 @@
 @import url(../popup/__language-circle/popup__language-circle.css);
 @import url(../popup/_close-btn-products/popup_close-btn-products.css);
 @import url(../popup/_product-true/popup_product-true.css);
+@import url(../popup/popup_product-false/popup_product-false.css);
 @import url(../popup/__git-link/popup__git-link.css);
 @import url(../popup/__stack-link-container/popup__stack-link-container.css);
 @import url(../popup/__product-done/popup__product-done.css);

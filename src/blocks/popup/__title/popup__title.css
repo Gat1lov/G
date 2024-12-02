@@ -5,3 +5,11 @@
     text-transform: uppercase;
     color: white;
 }
+
+@media (max-width: 775px) {
+    .popup__title {
+    font-size: 34px;
+    margin: 30px auto 0;
+    text-align: center;
+    }
+}

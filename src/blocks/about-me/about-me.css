@@ -15,3 +15,9 @@
     color: white;
     border-bottom: 1px solid white;
 }
+
+@media (max-width: 1080px) {
+    .about-me{
+        margin: 20px 20px 0;
+    }
+}

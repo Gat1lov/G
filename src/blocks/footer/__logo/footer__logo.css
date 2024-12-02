@@ -6,4 +6,20 @@
     white-space: nowrap;
     color: white;
     font-size: 80px;
+    overflow: hidden;
+}
+
+@media (max-width: 864px) {
+    .footer__logo{
+        bottom: -68%;
+        font-size: 60px;
+    }
+}
+
+@media (max-width: 600px) {
+    .footer__logo{
+        position: relative;
+        margin: 20px 0 -30px;
+        font-size: 60px;
+    }
 }

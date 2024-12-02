@@ -3,3 +3,9 @@
     font-family: 'InterLight', sans-serif;
     color: grey;
 }
+
+@media (max-width: 600px) {
+    .footer__quote-author {
+        font-size: 15px;
+    }
+}

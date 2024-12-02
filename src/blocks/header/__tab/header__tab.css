@@ -1,5 +1,8 @@
 .header__tab {
+    display: flex;
     transition: transform .3s ease-in-out;
+    align-items: center; /* Вертикальное выравнивание текста */
+    justify-content: center; /* Горизонтальное выравнивание текста */
 }
 
 .header__tab:hover {

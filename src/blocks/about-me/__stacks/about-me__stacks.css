@@ -1,5 +1,19 @@
-.about-me__stacks{
+.about-me__stacks {
     margin: 0;
     font-family: 'InterSemiBold', sans-serif;
     font-size: 20px;
+}
+
+@media (max-width: 864px) {
+    .about-me__stacks {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 768px) {
+    .about-me__stacks {
+        border-top: 1px solid white;
+        padding-top: 20px;
+        margin: 20px 0 0;
+    }
 }

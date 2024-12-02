@@ -7,8 +7,6 @@
     background: transparent;
     border: none; 
     cursor: pointer;
-    position: relative;
-    overflow: hidden;
 }
 
 .footer__button span {
@@ -28,5 +26,17 @@
     }
     100% {
         background-position: -200% 0;
+    }
+}
+
+@media (max-width: 600px) {
+    .footer__button span{
+        font-size: 10px;
+    }
+}
+
+@media (max-width: 486px) {
+    .footer__button {
+        margin: 10px 0 0;
     }
 }

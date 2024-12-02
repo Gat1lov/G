@@ -6,3 +6,10 @@
     font-size: 18px;
     border-bottom: 1px solid white;
 }
+
+@media (max-width: 775px) {
+    .popup__description  {
+        font-size: 14px;
+
+    }
+}

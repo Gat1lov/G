@@ -12,3 +12,11 @@
 .popup__social-btn:first-of-type{
     margin-top: 30px;
 }
+
+@media (max-width: 775px) {
+    .popup__social-btn {
+        font-size: 20px;
+        margin: 10px auto 0;
+        text-align: center;
+    }
+}

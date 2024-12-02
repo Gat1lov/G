@@ -13,3 +13,9 @@
     background: white;
     color: black;
 }
+
+@media (max-width: 600px) {
+    .products__more-info {
+        border: none;
+    }
+}

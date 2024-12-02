@@ -39,7 +39,7 @@ export const products = [
     },
     {
         id: 4, 
-        done: true,
+        done: false,
         photo: 'https://distribution.faceit-cdn.net/images/d42d2855-8989-48e0-865b-a18a3b170465.jpeg',
         name: 'Элемент 4',
         description: 'Lorem ipsum odor amet, consectetuer adipiscing elit. Nostra quam euismod fringilla pharetra nullam sapien. Dolor donec nisi volutpat aliquet consectetur. Proin aptent posuere fames laoreet posuere. Erat accumsan lectus proin facilisis blandit hendrerit orci. Suspendisse consectetur integer dapibus quam curae potenti phasellus. Dis dui porttitor a himenaeos neque nec molestie? Lobortis libero lacus commodo habitasse, sagittis justo a iaculis porta.',

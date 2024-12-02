@@ -6,4 +6,12 @@
     font-size: 25px;
     cursor: pointer;
     text-decoration: none;
+    text-align: center; /* Центрируем текст */
+    display: block; /* Делаем ссылку блочным элементом */
+}
+
+@media (max-width: 864px) {
+    .header__tab-text{
+        font-size: 18px;
+    }
 }

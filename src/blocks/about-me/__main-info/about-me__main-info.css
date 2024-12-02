@@ -3,3 +3,9 @@
     display: flex;
     justify-content: space-between;
 }
+
+@media (max-width: 768px) {
+    .about-me__main-info{
+        display: block;
+    }
+}

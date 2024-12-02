@@ -4,3 +4,9 @@
     margin: 0;
     text-transform: uppercase;
 }
+
+@media (max-width: 864px) {
+    .about-me__title{
+        font-size: 20px;
+    }
+}

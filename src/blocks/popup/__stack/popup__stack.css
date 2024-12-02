@@ -4,3 +4,10 @@
     margin: 20px 20px 0;
     font-size: 23px;
 }
+
+@media (max-width: 775px) {
+    .popup__stack  {
+        font-size: 16px;
+        margin: 10px 20px 0;
+    }
+}

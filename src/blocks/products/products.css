@@ -14,3 +14,9 @@
     margin: 45px 0 0;
     border-bottom: 1px solid white;
 }
+
+@media (max-width: 1080px) {
+    .products{
+        margin: 45px 20px 0;
+    }
+}

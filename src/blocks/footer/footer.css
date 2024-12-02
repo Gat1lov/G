@@ -1,3 +1,4 @@
+@import url(./__content/footer__content.css);
 @import url(./__logo/footer__logo.css);
 @import url(./__quote/footer__quote.css);
 @import url(./__quote-text/footer__quote-text.css);
@@ -10,4 +11,16 @@
     justify-content: space-between;
     position: relative;
     overflow: hidden; 
+}
+
+@media (max-width: 1080px) {
+    .footer{
+        margin: 200px 20px 0;
+    }
+}
+
+@media (max-width: 600px) {
+    .footer{
+        display: block;
+    }
 }
