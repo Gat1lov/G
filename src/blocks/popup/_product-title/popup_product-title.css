@@ -8,3 +8,10 @@
         text-align: start;
     }
 }
+
+@media (max-width: 400px) {
+    .popup_product-title{
+        text-align: start;
+        font-size: 25px;
+    }
+}

@@ -9,6 +9,7 @@
 @import url(./__stack-item/products__stack-item.css);
 @import url(./__language-circle/products__language-circle.css);
 @import url(./__more-info/products__more-info.css);
+@import url(./__svg-icon/products__svg-icon.css);
 
 .products{
     margin: 45px 0 0;

@@ -13,3 +13,10 @@
 
     }
 }
+
+@media (max-width: 400px) {
+    .popup__description  {
+        font-size: 12px;
+
+    }
+}

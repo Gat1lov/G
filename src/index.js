@@ -2,7 +2,7 @@ import '../src/styles/index.css';
 import { products } from '../src/components/products';
 import { languageColors } from '../src/components/languageColors';
 import { productsList, birthDate, header, productsTitle, scrollButton } from './components/constants';
-import { openPopup, closePopup, setupProductPopup} from './components/popup';
+import { openPopup, closePopup, setupProductPopup } from './components/popup';
 
 window.addEventListener('load', () => {
     document.body.classList.add('page--loaded');
@@ -43,7 +43,12 @@ products.forEach(product => {
         <div class="products__text-block">
             <h3 class="products__name">${product.name}</h3>
             <p class="products__description">${product.description}</p>
-            <button class="products__more-info" id="${product.id}">ℹ️</button>
+            <button class="products__more-info" id="${product.id}"><span>More info</span>
+            <span class="icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="products__svg-icon"><path d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z"></path>
+            </svg>
+            </span>
+            </button>
             <div class="products__stack"></div>
         </div>
     `;

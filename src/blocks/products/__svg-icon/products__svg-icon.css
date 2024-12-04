@@ -1,0 +1,13 @@
+.products__svg-icon{
+    width: 0.9em;
+    height: 0.8em;
+    margin-left: 10px;
+    fill: grey;
+    transform: rotate(-45deg);
+    transition: transform 0.5s ease-out;
+}
+
+.products__more-info:hover .products__svg-icon {
+    transform: rotate(0deg);
+    fill: white;
+  }

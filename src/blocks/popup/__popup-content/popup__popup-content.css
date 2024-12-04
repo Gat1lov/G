@@ -13,3 +13,9 @@
     };
 
 }
+
+@media (max-width: 600px) {
+    .popup__popup-content {
+        width: 90%;
+    }
+}
