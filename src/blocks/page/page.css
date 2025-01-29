@@ -18,6 +18,10 @@ body {
   opacity: 1;
 }
 
+* {
+  -webkit-tap-highlight-color: transparent;
+}
+
 *::-webkit-scrollbar {
   height: 5px;
   width: 5px;
