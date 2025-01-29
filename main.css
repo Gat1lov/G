@@ -1111,8 +1111,12 @@ body {
     cursor: pointer;
     color: white;
     z-index: 1000;
+    transition: color 0.3s;
 }
 
+.popup__close-btn:hover{
+    color: rgba(255, 255, 255, 0.3);
+} 
 .popup__title{
     margin: 50px 0 0;
     font-family: 'InterBlack',sans-serif;
@@ -1225,6 +1229,8 @@ body {
 @media (max-width: 460px) {
     .popup__stack-elements{
         margin: 0 20px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
     }
 }
 .popup__stack-element{
@@ -1345,7 +1351,6 @@ body {
     color: white;
     font-size: 20px;
     text-decoration: none;
-    color: inherit;
     pointer-events: none;
 }
 
@@ -1354,6 +1359,7 @@ body {
         font-size: 14px;
     }
 }
+
 .popup__resume-description-title{
     margin: 0;
     color: white;
