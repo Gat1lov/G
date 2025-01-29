@@ -6,4 +6,9 @@
     cursor: pointer;
     color: white;
     z-index: 1000;
+    transition: color 0.3s;
 }
+
+.popup__close-btn:hover{
+    color: rgba(255, 255, 255, 0.3);
+} 

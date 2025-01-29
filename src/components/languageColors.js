@@ -1,7 +1,7 @@
 export const languageColors = {
     'JavaScript': '#f7df1e',
     'HTML': '#e34c26',
-    'CSS': '#1572b6',
+    'CSS': '#663399',
     'SCSS': '#c6538c',
     'Python': '#306998',
     'Django': '#092e20',

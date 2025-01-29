@@ -8,5 +8,7 @@
 @media (max-width: 460px) {
     .popup__stack-elements{
         margin: 0 20px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
     }
 }
