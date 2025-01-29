@@ -4,3 +4,11 @@
     right: 0;
     bottom: 10px;
 }
+
+@media (max-width: 600px) {
+    .products__stack {
+        position: static;
+        width: 100%;
+        margin: 20px 0 0;
+    }
+}

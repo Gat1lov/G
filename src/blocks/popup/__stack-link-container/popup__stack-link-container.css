@@ -11,3 +11,9 @@
         margin: 10px 0 0 0;
     }
 }
+
+@media (max-width: 460px) {
+    .popup__stack-link-container{
+        display: block;
+    }
+}

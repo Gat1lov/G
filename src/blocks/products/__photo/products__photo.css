@@ -1,11 +1,15 @@
-.products__photo{
+.products__photo {
     margin: 0;
-    width: 300px;
+    border-radius: 10px;
+    max-width: 300px;
     max-height: 300px;
+    width: 100%;
+    display: block;
 }
 
 @media (max-width: 600px) {
     .products__photo {
-        width: 100%;
+        margin: 0 auto;
+        width: 90%;
     }
 }

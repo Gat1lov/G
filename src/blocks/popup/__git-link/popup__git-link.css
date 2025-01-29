@@ -8,3 +8,15 @@
     color: white;
     background-color: transparent;
 }
+
+@media (max-width: 775px) {
+    .popup__git-link{
+        font-size: 10px;
+    }
+}
+
+@media (max-width: 460px) {
+    .popup__git-link{
+        margin: 10px 0 0 20px;
+    }
+}

@@ -1,16 +1,21 @@
-import { socialBtn, popupSocial, closeBtnSocial, popupProduct, scrollButton, popupResume, resumeBtn, closeBtnResume } from '../components/constants';
+import { socialBtn, popupSocial, closeBtnSocial, popupProduct, scrollButton, popupResume, resumeBtn, closeBtnResume, popupSmtng, sometingBtn, closeBtnSomething, sphereContainer } from '../components/constants';
+import {initSphereAnimation, clearSphere} from '../components/sphere';
 import { languageColors } from '../components/languageColors';
 
 export function openPopup(popup) {
     popup.classList.add('visible');
     document.body.style.overflow = 'hidden';
 
+    const sphereContainer = popup.querySelector('.popup__sphere-container');
+    if (sphereContainer) {
+        initSphereAnimation(sphereContainer);
+    }
+
     if (scrollButton) {
         scrollButton.style.display = 'none';
     }
 
     document.addEventListener('keydown', handleEscClose);
-
     popup.addEventListener('click', handleOverlayClick);
 }
 
@@ -18,12 +23,16 @@ export function closePopup(popup) {
     popup.classList.remove('visible');
     document.body.style.overflow = '';
 
+    const sphereContainer = popup.querySelector('.popup__sphere-container');
+    if (sphereContainer) {
+        clearSphere(sphereContainer);
+    }
+
     if (scrollButton) {
         scrollButton.style.display = 'block';
     }
 
     document.removeEventListener('keydown', handleEscClose);
-
     popup.removeEventListener('click', handleOverlayClick);
 }
 
@@ -38,7 +47,6 @@ function handleEscClose(event) {
 
 function handleOverlayClick(event) {
     const popupContent = event.target.querySelector('.popup__popup-content');
-    
     if (popupContent && event.target !== popupContent && !popupContent.contains(event.target)) {
         const activePopup = document.querySelector('.popup.visible');
         if (activePopup) {
@@ -46,6 +54,7 @@ function handleOverlayClick(event) {
         }
     }
 }
+
 
 socialBtn.addEventListener('click', (e) => {
     e.preventDefault();
@@ -65,20 +74,44 @@ closeBtnResume.addEventListener('click', () => {
     closePopup(popupResume);
 });
 
+sometingBtn.addEventListener('click', (e) => {
+    e.preventDefault();
+    openPopup(popupSmtng);
+});
+
+closeBtnSomething.addEventListener('click', () => {
+    closePopup(popupSmtng);
+});
 
 export function setupProductPopup(product) {
     const popupContent = document.getElementById('popup-product-content');
     popupContent.innerHTML = `
-        <h2 class="popup__title popup_product-title">${product.name}</h2>
-        <img class="popup__photo" src="${product.photo}" alt="${product.name}">
-        <p class="popup__description">${product.description}</p>
-        <p class="popup__stack">Stack and link:</p>
-        <div class="popup__stack-link-container">
-            <div class="popup__stack-elements" id="popup_product-stack"></div>
-            <button class="popup__git-link">GitHub &rarr;</button>
-        </div>
-        <p class="popup__product-done"></p>
-    `;
+    <h2 class="popup__title popup_product-title">${product.name}</h2>
+    
+    <h3 class="popup__subtitle">Project goal:</h3>
+    <p class="popup__section-text">${product.goal}</p>
+    
+    <h3 class="popup__subtitle">Description:</h3>
+    <p class="popup__section-text">${product.description}</p>
+    
+    <h3 class="popup__subtitle">Features:</h3>
+    <ul class="popup__section-text">
+        ${product.features.map(feature => `<li class="popup__list-item">${feature}</li>`).join('')}
+    </ul>
+    
+    <h3 class="popup__subtitle">Technologies and Approaches used:</h3>
+    <ul class="popup__section-text">
+        ${product.technologies.map(technology => `<li class="popup__list-item">${technology}</li>`).join('')}
+    </ul>
+    
+    <p class="popup__stack">Stack and link:</p>
+    <div class="popup__stack-link-container">
+        <div class="popup__stack-elements" id="popup_product-stack"></div>
+        <button class="popup__git-link">GitHub &rarr;</button>
+    </div>
+    <p class="popup__product-done"></p>
+`;
+
 
     const stackContainer = popupContent.querySelector('#popup_product-stack');
 

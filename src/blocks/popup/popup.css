@@ -7,7 +7,7 @@
 @import url(../popup/_social-content/popup_social-content.css);
 @import url(../popup/_product-title/popup_product-title.css);
 @import url(../popup/__photo/popup__photo.css);
-@import url(../popup/__description/popup__description.css);
+@import url(../popup/__section-text/popup__section-text.css);
 @import url(../popup/__stack/popup__stack.css);
 @import url(../popup/__stack-elements/popup__stack-elements.css);
 @import url(../popup/__stack-element/popup__stack-element.css);
@@ -33,6 +33,10 @@
 @import url(../popup/__overlay/popup__overlay.css);
 @import url(../popup/_something/popup_something.css);
 @import url(../popup/__input/popup__input.css);
+@import url(../popup/__sphere-container/popup__sphere-container.css);
+@import url(../popup/_close-something/popup_close-something.css);
+@import url(../popup/__subtitle/popup__subtitle.css);
+@import url(../popup/__list-item/popup__list-item.css);
 
 .popup {
     position: fixed;
@@ -48,6 +52,10 @@
     opacity: 0;
     pointer-events: none;
     transition: opacity 0.3s ease;
+}
+
+.popup#popup-something{
+    background-color: #0f0f0f;
 }
 
 .popup.visible {

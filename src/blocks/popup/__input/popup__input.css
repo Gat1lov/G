@@ -1,8 +1,15 @@
-.popup__input{
-    width: 100%;
-    padding: 0.5rem;
-    font-size: 1rem;
-    margin-bottom: 1rem;
-    border: 1px solid #ccc;
-    border-radius: 5px;
+.popup__input {
+    font-family: 'InterThin', sans-serif;
+    border: none;
+    background: none;
+    color: #fff;
+    font-size: 18px;
+    width: 80%;
+    padding: 10px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.popup__input:focus {
+    outline: none;
 }
