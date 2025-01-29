@@ -623,6 +623,10 @@ body {
   opacity: 1;
 }
 
+* {
+  -webkit-tap-highlight-color: transparent;
+}
+
 *::-webkit-scrollbar {
   height: 5px;
   width: 5px;
@@ -1352,6 +1356,9 @@ body {
     font-size: 20px;
     text-decoration: none;
     pointer-events: none;
+    -webkit-user-select: none; 
+    user-select: none;
+    -webkit-tap-highlight-color: transparent; 
 }
 
 @media (max-width: 775px) {
